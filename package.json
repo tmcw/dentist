@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "NodeJS string dedenting module – make your template strings look nice!",
   "main": "dist/index.js",
+  "module": "src/index.js",
   "scripts": {
     "cover": "babel-node ./node_modules/.bin/isparta cover ./node_modules/mocha/bin/_mocha test/",
     "codecov": "npm run cover && codecov",
